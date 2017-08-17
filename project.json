@@ -1,0 +1,35 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "noCache" : false,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d"],
+
+    "jsList" : [
+        "src/resource.js",
+        
+        "src/config/move_region.json",
+        "src/config/boom.json",
+        "src/config/constant.js",
+        
+        "src/core/BoomObject.js",
+        
+        "src/layer/boat.js",
+        "src/layer/event.js",
+        "src/layer/fastman.js",
+        "src/layer/menu.js",
+        "src/layer/game_ready.js",
+        
+        
+        "src/scene/GameWorldScene.js",
+       
+        
+        "src/util/util.js"
+    ]
+}

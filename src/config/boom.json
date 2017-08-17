@@ -1,0 +1,25 @@
+/**
+ autor: J1en
+ email : 18273446017@163.com 
+
+//格式定义
+name : 'FastMan',      与定义的类的名字一致  包括大小写
+camp : 1,              阵营 参考 constant。js中的定义
+blood : 100,           血量
+speed : 5,             速度  速度的定义： 多少像素/0.02秒
+aggressivity : 5,      攻击力
+attockdistance : 5,    攻击范围
+defense : 2,           防御力
+rate : 5,              出现的几率
+ */
+var fastman =
+	{
+		name : 'FastMan',
+		camp : 1,
+		blood : 100,
+		speed : 5,
+		aggressivity : 5,
+		attockdistance : 5,
+		defense : 2,
+		rate : 5
+	}
